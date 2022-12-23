@@ -2,7 +2,7 @@
     "version": 2,
     "name": "node-docker-app",
     "builds": [
-       { "src": "/src/server.js", "use": "@vercel/node" }
+       { "src": "./src/server.js", "use": "@vercel/node" }
     ],
     "routes": [
        { "src": "/(.*)", "dest": "/" }

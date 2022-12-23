@@ -6,6 +6,6 @@ COPY . .
 
 RUN yarn 
 
-EXPOSE 3030
+EXPOSE ${ENV_PORT_APP}
 
 CMD [ "yarn", "dev" ]

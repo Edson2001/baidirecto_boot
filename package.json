@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": "^14.x || ^18.12.1 || ^19.0.1"
+    "node": "^14.x || ^18.12.1 || ^19.0.1 || ^16.16.0"
   },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only index.ts",
@@ -16,7 +16,9 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "puppeteer": "^18.2.1",
-    "puppeteer-core": "^19.4.1"
+    "puppeteer-core": "^19.4.1",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
   },
   "devDependencies": {
     "jest": "^29.3.1",

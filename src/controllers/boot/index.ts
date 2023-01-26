@@ -6,7 +6,7 @@ puppteer.use(puppeteerExtraPlugin())
 async function core(){
     
     const browser = await  puppteer.launch({
-        headless: true,
+        headless: false,
         args: ['--no-sandbox', '--disable-web-security',],
         ignoreHTTPSErrors: true,  
         executablePath: process.env.ENV_EXECUTABLEPATH || "C:/Program Files/Google/Chrome/Application/chrome.exe"

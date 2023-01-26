@@ -9,3 +9,11 @@
 ## Tecnologias utilizadas
 1. Node.js
 2. puppeteer
+
+## Como usar 
+
+1. `git clone https://github.com/Edson2001/baidirecto_boot.git`
+2. cd projectPath
+2. yarn
+2. alterar dados de login da conta no arquivo env
+3. yarn dev

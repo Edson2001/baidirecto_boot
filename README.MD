@@ -6,6 +6,6 @@
 1. Login no BAI DIRECTO
 2. Retorno do  saldo da conta.
 
-## Técnologias utilizadas
+## Tecnologias utilizadas
 1. Node.js
 2. puppeteer

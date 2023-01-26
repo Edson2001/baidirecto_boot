@@ -1,6 +1,11 @@
 ## App Boot BAI DIRECTO
 
 
-## Setps
+## Funcionalidades do boot
 
 1. Login no BAI DIRECTO
+2. Retorno do  saldo da conta.
+
+## Técnologias utilizadas
+1. Node.js
+2. puppeteer
